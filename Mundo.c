@@ -423,7 +423,7 @@ int main()
 /********************************************************************/
 
     int tempo;
-	for (id_pessoa = 0; id_pessoa < m->n_pessoas; id_pessoa++)
+    for (id_pessoa = 0; id_pessoa < m->n_pessoas; id_pessoa++)
     {
 	    srand(time(NULL) * id_pessoa);
         
@@ -444,5 +444,5 @@ int main()
     
 /********************************************************************/
 
-	return 0;
+    return 0;
 }
